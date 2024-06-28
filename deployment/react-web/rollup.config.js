@@ -40,7 +40,7 @@ export default {
         mendixResolve(
             "C:/Program Files/Mendix/9.24.23.37735/modeler/tools/node/web-resolutions.json",
             "C:/Program Files/Mendix/9.24.23.37735/modeler/tools/node/node_modules",
-            "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS LOCAL/App2/AppLocalTest/deployment/web/cachetag.txt"
+            "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS/AppTest/deployment/web/cachetag.txt"
         ),
         nodePolyfills(),
         esbuild({
@@ -88,13 +88,13 @@ export default {
             minify: isProduction
         }),
         generatePrecacheServiceWorker({
-            deploymentDir: "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS LOCAL/App2/AppLocalTest/deployment"
+            deploymentDir: "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS/AppTest/deployment"
         }),
         copy({
             targets: [
                 {
                     dest: "dist",
-                    src: "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS LOCAL/App2/AppLocalTest/deployment/web/widgets/*"
+                    src: "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS/AppTest/deployment/web/widgets/*"
                 },
                 {
                     dest: "dist",

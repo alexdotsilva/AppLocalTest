@@ -2,11 +2,11 @@ ext {
 	mendixJavaVersion = 11
 	mendixInstallDir = "C:/Program Files/Mendix/9.24.23.37735"
 	projectName = "AppLocalTest"
-	projectSafeName = "AppLocalTest"
-	mendixProjectDir = "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS LOCAL/App2/AppLocalTest"
-	deploymentDir = "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS LOCAL/App2/AppLocalTest/deployment"
-	dataSnapshotFile = "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS LOCAL/App2/AppLocalTest/data-snapshot.zip"
-	dataDir = "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS LOCAL/App2/AppLocalTest/deployment/data"
+	projectSafeName = "AppTest"
+	mendixProjectDir = "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS/AppTest"
+	deploymentDir = "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS/AppTest/deployment"
+	dataSnapshotFile = "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS/AppTest/data-snapshot.zip"
+	dataDir = "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS/AppTest/deployment/data"
 	extractDataSnapshot = false
 	templatesDir = "C:/Program Files/Mendix/9.24.23.37735/modeler/runtemplates"
 	runDir = "run"

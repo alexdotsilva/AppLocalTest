@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bundle-Name: AppLocalTest
+Bundle-Name: AppTest
 Bundle-SymbolicName: project
 Service-Component: OSGI-INF/component.xml
 
