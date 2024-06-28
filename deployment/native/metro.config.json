@@ -1,8 +1,8 @@
 {
   "watchFolders": [
-    "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS LOCAL/App test local/Main/theme",
-    "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS LOCAL/App test local/Main/javascriptsource",
-    "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS LOCAL/App test local/Main/themesource",
+    "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS LOCAL/App2/AppLocalTest/theme",
+    "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS LOCAL/App2/AppLocalTest/javascriptsource",
+    "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS LOCAL/App2/AppLocalTest/themesource",
     "C:/Program Files/Mendix/9.24.23.37735/modeler/tools/node/node_modules"
   ],
   "resolver": {
@@ -23,7 +23,7 @@
       "js_commonjs-module"
     ],
     "extraNodeModules": {
-      "externalWidgets": "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS LOCAL/App test local/Main/deployment/native/externalWidgets",
+      "externalWidgets": "C:/Users/alexa/OneDrive/Livros/Upskill/MENDIX/TESTS LOCAL/App2/AppLocalTest/deployment/native/externalWidgets",
       "@babel/runtime": "C:/Program Files/Mendix/9.24.23.37735/modeler/tools/node/node_modules/@babel/runtime",
       "big.js": "C:/Program Files/Mendix/9.24.23.37735/modeler/tools/node/node_modules/big.js",
       "react": "C:/Program Files/Mendix/9.24.23.37735/modeler/tools/node/node_modules/react",
