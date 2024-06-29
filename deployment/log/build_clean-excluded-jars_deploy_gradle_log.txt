@@ -1,10 +1,10 @@
 Initialized native services in: C:\Users\alexa\.gradle\native
 Initialized jansi services in: C:\Users\alexa\.gradle\native
 Received JVM installation metadata from 'C:\Program Files\Eclipse Adoptium\jdk-11.0.20.101-hotspot': {JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-11.0.20.101-hotspot, JAVA_VERSION=11.0.20.1, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=11.0.20.1+1, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=11.0.20.1+1, VM_VENDOR=Eclipse Adoptium, OS_ARCH=amd64}
-The client will now receive all logging from the daemon (pid: 77904). The daemon log file: C:\Users\alexa\.gradle\daemon\7.6.3\daemon-77904.out.log
-Starting 7th build in daemon [uptime: 2 hrs 41 mins 41.183 secs, performance: 99%, non-heap usage: 27% of 256 MiB]
+The client will now receive all logging from the daemon (pid: 105724). The daemon log file: C:\Users\alexa\.gradle\daemon\7.6.3\daemon-105724.out.log
+Starting 2nd build in daemon [uptime: 1 hrs 1 mins 46.104 secs, performance: 99%, non-heap usage: 18% of 256 MiB]
 Using 8 worker leases.
-Now considering [C:\Users\alexa\OneDrive\Livros\Upskill\MENDIX\TESTS\AppTest\deployment, C:\Users\alexa\OneDrive\Livros\Upskill\MENDIX\TESTS LOCAL\App2\AppLocalTest\deployment] as hierarchies to watch
+Now considering [C:\Users\alexa\OneDrive\Livros\Upskill\MENDIX\TESTS\AppTest\deployment] as hierarchies to watch
 Watching the file system is configured to be enabled if available
 File system watching is active
 Starting Build
@@ -14,8 +14,6 @@ Included projects: [root project 'deployment']
 
 > Configure project :
 Evaluating root project 'deployment' using build file 'C:\Users\alexa\OneDrive\Livros\Upskill\MENDIX\TESTS\AppTest\deployment\build.gradle'.
-Compiling script 'C:\Users\alexa\OneDrive\Livros\Upskill\MENDIX\TESTS\AppTest\deployment\variables.gradle' using SubsetScriptTransformer.
-Compiling script 'C:\Users\alexa\OneDrive\Livros\Upskill\MENDIX\TESTS\AppTest\deployment\variables.gradle' using BuildScriptTransformer.
 All projects evaluated.
 Task name matched 'clean-excluded-jars'
 Task name matched 'deploy'
@@ -40,23 +38,23 @@ Caching disabled for task ':copyDeploymentArtifacts' because:
   Build cache is disabled
 Task ':copyDeploymentArtifacts' is not up-to-date because:
   Task state is not tracked.
-Resolve mutations for :copyResources (Thread[Execution worker,5,main]) started.
-:copyResources (Thread[Execution worker,5,main]) started.
+Resolve mutations for :copyResources (Thread[included builds,5,main]) started.
+:copyResources (Thread[included builds,5,main]) started.
 
 > Task :copyResources NO-SOURCE
 Skipping task ':copyResources' as it has no source files and no previous output files.
-Resolve mutations for :copyUserLibs (Thread[Execution worker,5,main]) started.
-:copyUserLibs (Thread[Execution worker,5,main]) started.
+Resolve mutations for :copyUserLibs (Thread[included builds,5,main]) started.
+:copyUserLibs (Thread[included builds,5,main]) started.
 
 > Task :copyUserLibs NO-SOURCE
 Skipping task ':copyUserLibs' as it has no source files and no previous output files.
-Resolve mutations for :unzipDataSnapshot (Thread[Execution worker,5,main]) started.
-:unzipDataSnapshot (Thread[Execution worker,5,main]) started.
+Resolve mutations for :unzipDataSnapshot (Thread[included builds,5,main]) started.
+:unzipDataSnapshot (Thread[included builds,5,main]) started.
 
 > Task :unzipDataSnapshot SKIPPED
 Skipping task ':unzipDataSnapshot' as task onlyIf 'Task is enabled' is false.
-Resolve mutations for :deploy (Thread[Execution worker,5,main]) started.
-:deploy (Thread[Execution worker,5,main]) started.
+Resolve mutations for :deploy (Thread[included builds,5,main]) started.
+:deploy (Thread[included builds,5,main]) started.
 
 > Task :deploy
 Skipping task ':deploy' as it has no actions.
